@@ -1,11 +1,114 @@
 .middle_sec_1{
     border: 1px solid red;
+    padding: 30px 0;
 }
 
 .middle_sec_1 > .box1{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 90%;
     margin: auto;
-
 }
+
+.middle_sec_1 > .box1 > div:first-child > span:first-child{
+    font-weight: bold;
+    font-size: 13px;
+    color: gray;
+}
+
+.middle_sec_1 > .box1 > div:first-child > span:last-child{
+    font-size: 12px;
+    color: blue;
+    padding-left: 20px;
+}
+
+.middle_sec_1 > .box1 > div:first-child > span:last-child > i{
+    font-size: 10px;
+    color: blue;
+    padding-left: 5px;
+}
+
+
+
+.middle_sec_1 > .box1 > div:last-child > i{
+    font-size: 10px;
+    color: blue;
+}
+
+.middle_sec_1 > .box1 > div:last-child > i:first-child{
+    padding-right: 20px;
+}
+
+.middle_sec_1 > .box1 > div:last-child > i:last-child{
+    padding-left: 20px;
+}
+
+
+
+
+/* box css start hare  */
+.row{
+    border: 1px solid red;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.row > .box2{
+    overflow: scroll;
+    display: flex;
+}
+
+
+.row > .box2 > div > a > div{
+    width: 260px;
+    height: 150px;
+}
+
+
+.row > .box2 > div > a > div > img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+    background-color: rgb(15,127,113);
+}
+
+
+.row > .box2 > div {
+    padding-right: 10px;
+}
+
+
+.row > .box2 > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+.row > .box2 > div > a:hover {
+    text-decoration: underline;
+}
+
+.row > .box2 > div > a:hover > p:nth-child(2) {
+    color: rgb(15,127,113);
+    text-decoration: underline;
+}
+
+.row > .box2 > div > a > p:nth-child(2){
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.row > .box2 > div > a > p:nth-child(3){
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+
+.row > .box2 > div > a > p:nth-child(4){
+    font-size: 12px;
+    padding: 15px 0;
+}
+
+
+
+/* box css ends hare  */
