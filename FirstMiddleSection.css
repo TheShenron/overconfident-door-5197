@@ -1,6 +1,6 @@
 .middle_sec_1{
-    padding: 30px 0;
-    border-bottom: .1px solid gainsboro;
+    padding: 10px 0;
+    /* border-bottom: .1px solid gainsboro; */
 }
 
 .middle_sec_1 > .box1{
@@ -162,3 +162,104 @@
     
 }
 /* box css ends hare  */
+
+
+/*................................ article_1 css ends hare ............................*/
+
+
+.article_1{
+    border-top:.1px solid rgb(211, 211, 211) ;
+    border-bottom: .1px solid rgb(211, 211, 211);
+    display: flex;
+    text-align: start;
+    padding: 50px;
+    margin: 50px 0;
+}
+
+.article_1 img{
+    width: 100%;
+}
+
+.article_1 > div{
+    width: 50%;
+}   
+
+
+.article_1 > div:nth-child(2) > div{
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    padding: 0 0 0 20px;
+}
+
+
+.article_1 > div:nth-child(2) > div > span{
+    display: inline-block;
+    width: 20px;
+    background-color: rgb(3, 115, 98);
+}
+
+
+.article_1 > div:nth-child(2) > div >div > p:first-child{
+    font-size: 30px;   
+}
+
+.article_1 > div:nth-child(2) > div >div > p:first-child:hover{
+    text-decoration: underline; 
+    color: #145f3f;
+}
+
+
+.article_1 > div:nth-child(2) > div >div > p:last-child{
+    font-size: 15px;
+    padding-top: 20px;
+    
+}
+
+
+.article_1 > div:nth-child(2)  > p{
+    font-size: 15px;
+    padding: 20px;
+    color: blue;
+    
+}
+
+.article_1 > div:nth-child(2)  > p:hover{
+    text-decoration: underline;    
+}
+
+
+
+@media only screen and (min-width : 300px) and (max-width : 768px) {
+
+    .article_1{
+        padding: 20px;
+        flex-direction: column;
+        border: none;
+    }
+
+    .article_1 > div{
+        width: 100%;
+    }   
+
+    .article_1 > div:nth-child(2) > div{
+        padding: 0;
+    }
+
+    .article_1 > div:nth-child(2)  > p{
+        padding: 20px 0;
+        
+    }
+
+    .article_1 > div:nth-child(2) > div >div > p:first-child{
+        font-size: 25px;   
+    }
+    
+    
+
+}
+
+
+
+/*................................ article_1 css ends hare ............................*/
+
