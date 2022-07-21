@@ -1,0 +1,11 @@
+.middle_sec_1{
+    border: 1px solid red;
+}
+
+.middle_sec_1 > .box1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+
+}
