@@ -1,6 +1,6 @@
 .middle_sec_1{
-    border: 1px solid red;
     padding: 30px 0;
+    border-bottom: .1px solid gainsboro;
 }
 
 .middle_sec_1 > .box1{
@@ -49,7 +49,6 @@
 
 /* box css start hare  */
 .row{
-    border: 1px solid red;
     width: 90%;
     margin: 40px auto;
 }
@@ -62,7 +61,7 @@
 
 .row > .box2 > div > a > div{
     width: 260px;
-    height: 150px;
+    /* height: 150px; */
 }
 
 
@@ -88,27 +87,78 @@
     text-decoration: underline;
 }
 
-.row > .box2 > div > a:hover > p:nth-child(2) {
+.row > .box2 > div > a:hover > div > p:nth-child(1) {
     color: rgb(15,127,113);
     text-decoration: underline;
 }
 
-.row > .box2 > div > a > p:nth-child(2){
+.row > .box2 > div > a > div > p:nth-child(1){
     font-size: 20px;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
-.row > .box2 > div > a > p:nth-child(3){
+.row > .box2 > div > a > div > p:nth-child(2){
     font-size: 14px;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 
-.row > .box2 > div > a > p:nth-child(4){
+.row > .box2 > div > a > div > p:nth-child(3){
     font-size: 12px;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 
+@media only screen and (min-width : 300px) and (max-width : 768px) {
 
+    .row{
+        width: 95%;
+        margin: 30px auto;
+    }
+    
+    .row > .box2{
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row > .box2 > div > a {
+        text-decoration: none;
+        color: black;
+
+        display: flex;
+    }
+
+    .row > .box2 > div > a > div:last-child{
+        flex-grow: 1;
+    }
+
+    /* .row > .box2 > div > a > div{
+        width: 100%; 
+        height: 150px;
+    } */
+
+    .row > .box2 > div{
+        padding: 15px 0;
+    }
+    
+
+    .row > .box2 > div > a > div > p:nth-child(1){
+        font-size: 20px;
+        padding: 5px 0 5px 20px;
+    }
+    
+    .row > .box2 > div > a > div > p:nth-child(2){
+        font-size: 14px;
+        padding: 5px 0 5px 20px;
+    }
+    
+    
+    .row > .box2 > div > a > div > p:nth-child(3){
+        font-size: 12px;
+        padding: 5px 0 5px 20px;
+    }
+    
+    
+}
 /* box css ends hare  */
