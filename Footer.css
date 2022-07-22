@@ -95,3 +95,126 @@
 
 
 /*................................ article_1 css ends hare ............................*/
+
+
+
+/* footer css start hare */
+
+
+footer > div:first-child , footer > div:last-child{
+    margin: auto;
+    padding: 20px 70px;
+    border: 1px solid rgb(211, 211, 211);
+    
+
+    display: flex;
+    gap: 20px;
+}
+
+footer > div:first-child > a , footer > div:last-child > a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+footer > div:first-child > a:hover , footer > div:last-child > a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+footer > div:nth-child(2){
+    /* border: 1px solid green; */
+    width: 90%;
+    margin: auto;
+    padding: 30px 0 0 0 ;
+}
+
+.f2 > div:nth-child(1){
+    /* padding: 30px; */
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f2 > div:nth-child(1) >div > p{
+    font-size: 13px;
+    font-weight: bold;
+    padding:  0 0 10px 0;
+}
+
+.f2 > div:nth-child(1) >div > a{
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    padding: 2px 0;
+}
+
+.f2 > div:nth-child(1) >div > a:hover{
+    text-decoration: underline;
+}
+
+.f2 > div:last-child{
+    /* border : 1px solid rgb(8, 52, 175); */
+    margin: 40px 0;
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+
+.f2 > div:last-child > div > i{
+    /* border : 1px solid red; */
+    font-size: 20px;
+    padding:0 15px;
+    
+}
+
+.f2 > div:last-child > div > select{
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+
+
+
+@media only screen and (min-width : 300px) and (max-width : 768px) {
+
+    footer > div:first-child{
+        margin: auto;
+        padding: 20px 40px;
+        border: 1px solid rgb(211, 211, 211);
+        
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    footer > div:last-child{
+        margin: auto;
+        padding: 10px 20px;
+        border: 1px solid rgb(211, 211, 211);
+        
+    
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .f2 > div:last-child{
+        /* border : 1px solid rgb(8, 52, 175); */
+        margin: 30px 0;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+}
+
+/* footer css ends hare */
+
