@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+form {
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 10px 10px 20px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+input[type=text], input[type=password] , input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input + a{
+    font-size: 12px;
+    position: relative;
+    bottom: 5px;
+    text-decoration: none;
+    color: blue;
+}
+
+button {
+  background-color: #018857;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+    background-color: #035235;
+}
+
+
+button + label{
+    font-size: 14px;
+    color: rgb(63, 63, 63);
+}
+
+
+.imgcontainer {
+  margin: 15px 0;
+  text-align: start;
+  font-size: 22px;
+    
+}
+
+
+.container {
+  padding: 0px 30px;
+}
+
+
+.line{
+    height: 1px;
+    background: gainsboro;
+    width: 100%;
+    position: relative;
+    margin: 20px 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.line > span{
+    display: block;
+    background-color: white;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+    border: 1px solid white;
+    position: relative;
+    bottom: 12px;
+    font-size: 13px;
+}
+
+.apple{
+    background-color: black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.apple:hover{
+    background-color: black;
+}
+
+.fb{
+    background-color: rgb(57,87,154);
+    font-size: 15px;
+}
+
+.fb:hover{
+    background-color: rgb(25, 46, 94);
+}
+
+p{
+    font-size: 11px;
+    color: rgb(107, 107, 107);
+}
+
+a{
+    font-size: 11px;
+    text-decoration: none;
+}
+
+
+.notsignin{
+    border-top: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(206, 206, 206);
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 15px 0;
+}
+
+
+.notsignin > p , .notsignin > p > a{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+
+}
+.notsignin > p > a{
+    color: blue;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
